@@ -27,12 +27,12 @@ def measure_memory_and_time(func, *args):
 
 
 def benchmark(size):
-    print(f"\n🔸 Matrix Size: {size}x{size}")
+    print(f"\nMatrix Size: {size}x{size}")
 
-    # Vanillaadd Python
+    # Vanilla Python
     A = generate_matrix(size, size)
     B = generate_matrix(size, size)
-    if size > 1000:
+    if size > 2000:
         print("Pure Python: Time = -NA- s, Peak Mem = -NA- MB")
     else:
         time_py, mem_py, _ = measure_memory_and_time(matmul_pure_python, A, B)
