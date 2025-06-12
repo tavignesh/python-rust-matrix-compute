@@ -1,4 +1,4 @@
-# Matrix Multiplication Benchmark: NumPy vs Rust
+# Matrix Multiplication Benchmark: Python vs NumPy vs Rust
 
 This project benchmarks matrix multiplication across four different implementations:
 - **Vanilla Python**
