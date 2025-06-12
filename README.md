@@ -51,4 +51,4 @@ The focus is on highlighting raw performance, memory usage, and scalability on m
 
 ## 🧠 Conclusion
 
-This project demonstrates that **raw language choice isn't everything**—what matters is how well the code leverages the **hardware**, whether through compiled libraries, parallelism, or memory efficiency. NumPy achieves its performance by using optimized native libraries, while Rust offers **true parallel scalability** with full control and low-level memory efficiency, making it ideal for high-performance computing on modern multi-core systems.
+This project demonstrates that **raw language choice isn't everything**—what matters is how well the code leverages the **hardware**, whether through compiled libraries, parallelism, or memory efficiency. NumPy achieves its performance by using optimized native libraries, while Rust offers **true parallel scalability** with full control and low-level memory efficiency, making it ideal for high-performance computing on modern multi-core systems. Parallalization with RUST becomes more and more efficient with the increase in processing cores.
